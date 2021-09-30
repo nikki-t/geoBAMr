@@ -61,8 +61,8 @@ bam_data <- function(w,
                    manning_ready = manning_ready,
                    class = c("bamdata"))
 
-  if (nx > max_xs)
-    out <- sample_xs(out, n = max_xs, seed = seed)
+  # if (nx > max_xs)
+  #   out <- sample_xs(out, n = max_xs, seed = seed)
 
   out
 }
